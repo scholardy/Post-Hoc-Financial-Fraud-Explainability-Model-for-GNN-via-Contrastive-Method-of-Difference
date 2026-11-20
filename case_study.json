@@ -1,0 +1,115 @@
+{
+ "gid": 578734,
+ "transaction_id": 3565734,
+ "amount": 30.0,
+ "product": "S",
+ "card4": "visa",
+ "card6": "credit",
+ "email": NaN,
+ "device_type": "desktop",
+ "device_info": "Windows",
+ "p": 0.6689663529396057,
+ "threshold": 0.4660066068172455,
+ "n": 20,
+ "e": 31,
+ "edges_by_relation": {
+  "shared card": 18,
+  "shared address+email": 3,
+  "shared device": 10
+ },
+ "explanation_edges_by_relation": {
+  "shared card": 3,
+  "shared address+email": 0,
+  "shared device": 4
+ },
+ "explanation_nodes": 5,
+ "explanation_edges": 7,
+ "earlier_frauds_in_subgraph": 6,
+ "earlier_in_subgraph": 19,
+ "earlier_frauds_in_explanation": 4,
+ "earlier_in_explanation": 4,
+ "neighbour_amounts_in_explanation": [
+  30.0,
+  30.0,
+  30.0,
+  30.0
+ ],
+ "hours_before_target_in_explanation": [
+  0.1,
+  0.1,
+  0.1,
+  0.0
+ ],
+ "minutes_before_target_in_explanation": [
+  8.9,
+  5.8,
+  4.8,
+  2.9
+ ],
+ "ref_gid": 451964,
+ "ref_transaction_id": 3438964,
+ "ref_sim": 0.7141047120094299,
+ "ref_amount": 40.0,
+ "ref_product": "H",
+ "quality": {
+  "p": 0.6689663529396057,
+  "p_s": 0.6763370633125305,
+  "p_nec": 0.6406288146972656,
+  "p_cf": 0.37637463212013245,
+  "fidelity": 0.9889819415572456,
+  "fid_minus": -0.007370710372924805,
+  "fid_plus": 0.028337538242340088,
+  "sparsity": 0.7620967741935484,
+  "n_nodes": 5,
+  "n_edges": 7,
+  "disc_power": 0.29259172081947327,
+  "flip": 1.0
+ },
+ "top_features": [
+  "C1",
+  "product_S",
+  "C2",
+  "V293",
+  "C4",
+  "V279",
+  "V290",
+  "V304"
+ ],
+ "top_feature_values": {
+  "C1": [
+   1.6993709802627563,
+   -0.5175340175628662
+  ],
+  "product_S": [
+   7.42409610748291,
+   -0.13469654321670532
+  ],
+  "C2": [
+   1.628574252128601,
+   0.17885328829288483
+  ],
+  "V293": [
+   -0.256696879863739,
+   3.5352909564971924
+  ],
+  "C4": [
+   1.3847503662109375,
+   0.7302666306495667
+  ],
+  "V279": [
+   -0.3985857665538788,
+   2.4272758960723877
+  ],
+  "V290": [
+   -0.22405345737934113,
+   4.597566604614258
+  ],
+  "V304": [
+   1.5401419401168823,
+   2.7886710166931152
+  ]
+ },
+ "feat_kept": 35,
+ "seconds": 0.4093321080000578,
+ "gnnexplainer_flip": 1.0
+}

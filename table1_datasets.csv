@@ -1,0 +1,4 @@
+Dataset,Nodes,Edges,Features,Fraud rate (%),Transactions,Avg. degree,Relations,Frauds,Split,Split frauds
+CCF,284807,2273717,31,0.1727485630620034,284807,15.966721323562973,"temporal adjacency (854,415); feature kNN (1,419,302)",492,"{'train': 170884, 'val': 56962, 'test': 56961}","{'train': 360, 'val': 57, 'test': 75}"
+IEEE-CIS,590540,3179542,173,3.4990009144173126,590540,10.768252785586073,"shared card (1,696,482); shared address+email (1,209,018); shared device (274,042)",20663,"{'train': 354324, 'val': 118108, 'test': 118108}","{'train': 11988, 'val': 4611, 'test': 4064}"
+PaySim,1000000,2058208,9,0.2124,1000000,4.116416,"shared origin account (253); shared destination account (2,057,955)",2124,"{'train': 600000, 'val': 200000, 'test': 200000}","{'train': 1570, 'val': 296, 'test': 258}"
